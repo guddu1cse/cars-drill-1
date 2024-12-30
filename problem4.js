@@ -1,4 +1,4 @@
-import {inventory} from "./inventory";
+import inventory from "./inventory.js";
 const findYears = (inventory) => {
     let yearList = [];
     

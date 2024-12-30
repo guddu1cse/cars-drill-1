@@ -1,4 +1,4 @@
-import {inventory} from "./inventory";
+import inventory from "./inventory.js";
 const countCarsOlderThan = (inventory, year) => {
     let count = 0; //count of cars older than year
     

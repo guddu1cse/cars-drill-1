@@ -1,4 +1,4 @@
-import {inventory} from "./inventory";
+import inventory from "./inventory.js";
 const carListedInAplphabeticalOrder = (inventory) => {
     let carList = []; //carList which will be returned the car list in alphabetical order
 
