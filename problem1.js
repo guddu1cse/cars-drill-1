@@ -1,5 +1,3 @@
-import inventory from "./inventory.js";
-
 const findCarById = (id , inventory) => {
     //iterating through the inventory
     for(let i=0; i<inventory.length; i++){
@@ -13,4 +11,4 @@ const findCarById = (id , inventory) => {
     return "No car found with Id: " + id;
 }
 
-console.log(findCarById(33, inventory));
+export default findCarById;

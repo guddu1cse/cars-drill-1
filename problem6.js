@@ -1,4 +1,3 @@
-import inventory from "./inventory.js";
 const findCarByName = (car1 , car2 , inventory) => {
     let carList =[];
 
@@ -12,4 +11,4 @@ const findCarByName = (car1 , car2 , inventory) => {
     return carList;
 }
 
-console.log(findCarByName("Bmw", "Audi", inventory));
+export default findCarByName;

@@ -1,9 +1,7 @@
-import inventory from "./inventory.js";
 const carListedInAplphabeticalOrder = (inventory) => {
     let carList = []; //carList which will be returned the car list in alphabetical order
 
     //inventory.sort((a,b)=>a.car_make.localeCompare(b.car_make));
-
 
     //sorting alphabetically
     for(let i=0; i<inventory.length; i++){
@@ -28,4 +26,4 @@ const carListedInAplphabeticalOrder = (inventory) => {
     return carList;
 }
 
-console.log(carListedInAplphabeticalOrder(inventory));
+export default carListedInAplphabeticalOrder;

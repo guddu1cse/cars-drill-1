@@ -1,4 +1,3 @@
-import inventory from "./inventory.js";
 const findYears = (inventory) => {
     let yearList = [];
     
@@ -10,4 +9,4 @@ const findYears = (inventory) => {
     return yearList;
 }
 
-console.log(findYears(inventory));
+export default findYears;

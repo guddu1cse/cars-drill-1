@@ -1,4 +1,3 @@
-import inventory from "./inventory.js";
 const countCarsOlderThan = (inventory, year) => {
     let count = 0; //count of cars older than year
     
@@ -13,4 +12,4 @@ const countCarsOlderThan = (inventory, year) => {
     return count;
 }
 
-console.log(countCarsOlderThan(inventory, 2000));
+export default countCarsOlderThan;
