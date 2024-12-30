@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "js-drill-1",
+  "version": "1.0.0",
+  "main": "problem1.js",
+  "scripts": {
+    "start": "node problem1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
